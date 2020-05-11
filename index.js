@@ -28,7 +28,7 @@ server.post('/nitx/jsp/xquery.jsp', (request, response) => {
  //}
 })
 
-server.get('/nitx/api/1/topology/flowcheck/bulk', (request, response) => {
+server.post('/nitx/api/1/topology/flowcheck/bulk', (request, response) => {
          response.set('Content-Type', 'text/json');
   response.send({});
 
